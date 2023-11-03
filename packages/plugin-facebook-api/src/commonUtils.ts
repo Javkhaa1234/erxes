@@ -148,7 +148,7 @@ export const getConfigs = async (models: IModels) => {
     configsMap[config.code] = config.value;
   }
 
-  redis.set(CACHE_NAME, JSON.stringify(configsMap));
+  await redis.set(CACHE_NAME, JSON.stringify(configsMap));
 
   return configsMap;
 };
@@ -163,6 +163,6 @@ export const getConfig = async (models: IModels, code, defaultValue?) => {
   return configs[code];
 };
 
-export const resetConfigsCache = () => {
-  redis.set(CACHE_NAME, '');
+export const resetConfigsCache = async () => {
+  await redis.set(CACHE_NAME, '');
 };
