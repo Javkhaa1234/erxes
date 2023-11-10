@@ -10,17 +10,6 @@ const InterpolateHtmlPlugin = require("interpolate-html-plugin");
 //   .BundleAnalyzerPlugin;
 const { MFLiveReloadPlugin } = require("@module-federation/fmr");
 
-// const configs = require("./plugin-src/configs");
-
-// const exposes = {};
-
-// for (const expose of Object.keys(configs.exposes || {})) {
-//   exposes[expose] = configs.exposes[expose].replace("src", "plugin-src");
-// }
-
-// replace accordingly './.env' with the path of your .env file
-// require("dotenv").config({ path: "./.env" });
-
 const deps = require("./package.json").dependencies;
 const depNames = [
   "@apollo/client",
@@ -158,9 +147,6 @@ module.exports = (configs) => (env, args) => {
     },
 
     plugins: [
-      // new webpack.DefinePlugin({
-      //   "process.env": JSON.stringify(process.env),
-      // }),
       new webpack.ProvidePlugin({
         // Make a global `process` variable that points to the `process` package,
         // because the `util` package expects there to be a global variable named `process`.
