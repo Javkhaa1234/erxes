@@ -10,7 +10,7 @@
 <p align="center">
   <a href="https://erxes.io/resource-center">Docs</a>
   |
-  <a href="https://xosdemo.erxes.io/">Demo</a>
+  <a href="https://erxes.io/demo">Demo</a>
   |
   <a href="https://erxes.io/">Website</a>
   |
