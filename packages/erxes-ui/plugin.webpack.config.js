@@ -103,6 +103,14 @@ module.exports = (configs) => (env, args) => {
           use: ["style-loader", "css-loader", "postcss-loader"],
         },
         {
+          test: /\.(png|svg|jpg|jpeg|gif)$/i,
+          type: "asset/resource",
+        },
+        {
+          test: /\.(woff|woff2|eot|ttf|otf)$/i,
+          type: "asset/resource",
+        },
+        {
           test: /\.json$/,
           loader: "json-loader",
         },
@@ -201,7 +209,7 @@ module.exports = (configs) => (env, args) => {
           "@erxes/ui": {
             requiredVersion: "1.0.0",
             singleton: true,
-          }
+          },
         },
       }),
       new HtmlWebPackPlugin({
