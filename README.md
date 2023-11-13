@@ -37,7 +37,7 @@
    <a href="https://discord.com/invite/aaGzy3gQK5">
       <img alt="Discord" src="https://img.shields.io/badge/Discord-%20Community-blueviolet">
   </a>
-   <a href="https://explore.transifex.com/erxes-inc/erxes/">
+   <a href="https://explore.transifex.com/erxes-inc/erxesxos/">
       <img alt="Transfix" src="https://img.shields.io/badge/translations-contribute-brightgreen">
   </a>
    <a href="https://ossrank.com/p/416">
