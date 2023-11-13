@@ -6,11 +6,11 @@
 
 <p align="center">An open-source Hubspot/Qualtrics alternative enables SaaS providers and digital marketing agencies/developers to create unique experiences for their entire business
 </p>
-
+ 
 <p align="center">
   <a href="https://erxes.io/resource-center">Docs</a>
   |
-  <a href="https://xosdemo.erxes.io/">Demo</a>
+  <a href="https://erxes.io/demo">Demo</a>
   |
   <a href="https://erxes.io/">Website</a>
   |
